@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>ejercicio4</groupId>
-  <artifactId>demo</artifactId>
+  <artifactId>ejercicio4</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
@@ -44,6 +44,13 @@
       <artifactId>mockito-core</artifactId>
       <version>3.3.0</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>principal</groupId>
+      <artifactId>raiz2</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <scope>system</scope>
+      <systemPath>C:\Users\Diego\Desktop\IDE_DAM\raiz2\target\raiz2-1.0-SNAPSHOT.jar</systemPath> 
     </dependency>
   </dependencies>
 
