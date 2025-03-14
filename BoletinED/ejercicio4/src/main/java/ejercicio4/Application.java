@@ -26,8 +26,12 @@
 
 package ejercicio4;
 
+import boletin5.ejercicio4.Ejercicio4;
+import hola.B;
+
 public class Application {
   public static void main(String[] args) {
+    B.f2();
     
   }
 }
