@@ -15,7 +15,7 @@ public class Operaciones {
             if (n % i == 0) {
                 esPrimo = false;
             } else {
-                esPrimo = true;
+                esPrimo = true;//sobra para que funcione
             }
         return esPrimo;
     }
