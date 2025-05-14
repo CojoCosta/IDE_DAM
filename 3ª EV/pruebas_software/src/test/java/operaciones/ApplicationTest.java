@@ -8,6 +8,7 @@ import static org.junit.jupiter.api.Assertions.fail;
 
 import java.util.concurrent.TimeUnit;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
@@ -46,13 +47,14 @@ public class ApplicationTest {
     assertTrue(Operaciones.primo(1299827));
   }
 
+  // @Disabled //Para desactivar la prueba
   @Test
   public void testFactorialException() {
     try {
       Operaciones.factorial(-10);
       fail("No salta excepción");
     } catch (IllegalArgumentException e) {
-      assertTrue(true); //No es necesario pero se pone por claridad
+      assertTrue(true); // No es necesario pero se pone por claridad
     }
   }
 
