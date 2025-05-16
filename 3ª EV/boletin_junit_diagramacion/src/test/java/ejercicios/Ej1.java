@@ -26,7 +26,8 @@ public class Ej1 {
 
     @Test
     public void testPotencia(){
-        // try {
+        int [] bases = {1, 0, -1, 2, -2};
+        int [] exponentes = {1, 0, -1,2 , 3, -2};
             
             assertEquals(Math.pow(2, 2), Ejercicio1.calcularPotencia(2,2),0);
             
@@ -35,13 +36,12 @@ public class Ej1 {
             assertEquals(Math.pow(2, -3), Ejercicio1.calcularPotencia(2,-3),0);
             
             assertEquals(Math.pow(-2, 2), Ejercicio1.calcularPotencia(-2,2),0);
-        // } catch ( e) {
-            
-        // }
+        
+
     }
 
-    //bases: 1,0,-1, 2, -2
-    //exponentes: 1,0,-1, 2,3 , -2
+    
+    //exponentes: 
 
 }
 
