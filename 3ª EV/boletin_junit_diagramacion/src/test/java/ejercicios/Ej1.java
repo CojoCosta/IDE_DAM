@@ -26,16 +26,13 @@ public class Ej1 {
 
     @Test
     public void testPotencia(){
-        int [] bases = {1, 0, -1, 2, -2};
-        int [] exponentes = {1, 0, -1, 2, 3, -2};
+        int [] bases = {1, 0, -1, 2, -2, -0, 99};
+        int [] exponentes = {1, 0, -1, 2, 3, -2, -3, 99};
         for (int i = 0; i < bases.length; i++) {
             for (int j = 0; j < exponentes.length; j++) {
                 assertEquals(Math.pow(i, j), Ejercicio1.calcularPotencia(i, j),0);
             }
         }
-            
-        
-
     }
 }
 
