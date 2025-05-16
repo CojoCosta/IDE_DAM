@@ -27,21 +27,15 @@ public class Ej1 {
     @Test
     public void testPotencia(){
         int [] bases = {1, 0, -1, 2, -2};
-        int [] exponentes = {1, 0, -1,2 , 3, -2};
+        int [] exponentes = {1, 0, -1, 2, 3, -2};
+        for (int i = 0; i < bases.length; i++) {
+            for (int j = 0; j < exponentes.length; j++) {
+                assertEquals(Math.pow(i, j), Ejercicio1.calcularPotencia(i, j),0);
+            }
+        }
             
-            assertEquals(Math.pow(2, 2), Ejercicio1.calcularPotencia(2,2),0);
-            
-            assertEquals(Math.pow(5, 2), Ejercicio1.calcularPotencia(5,2),0);
-            
-            assertEquals(Math.pow(2, -3), Ejercicio1.calcularPotencia(2,-3),0);
-            
-            assertEquals(Math.pow(-2, 2), Ejercicio1.calcularPotencia(-2,2),0);
         
 
     }
-
-    
-    //exponentes: 
-
 }
 
