@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.fail;
 import org.junit.jupiter.api.Test;
 
 public class Ej2 {
-    String frase = "hola";
+    String frase = "hola";//TODO before all
     @Test
     public void comprobarSubCadena() {
         assertEquals("hola", Ejercicio2.subCadena(frase, 0, 4));
