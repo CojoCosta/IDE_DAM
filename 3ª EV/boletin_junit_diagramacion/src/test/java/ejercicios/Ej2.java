@@ -4,10 +4,17 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.fail;
 
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 public class Ej2 {
-    String frase = "hola";//TODO before all
+    static String frase;
+
+    @BeforeAll
+    static void antesDeTodos(){
+        frase = "hola";
+    }
+    
     @Test
     public void comprobarSubCadena() {
         assertEquals("hola", Ejercicio2.subCadena(frase, 0, 4));
